@@ -13,7 +13,7 @@ public class Typing_Alternatively_In_Frame_TextBoxes {
 		d.get("file:///C:/Users/SANDEEP/Documents/java%20html%20codes/Page1.html");
 		
 		d.findElement(By.id("t1")).sendKeys("a");
-		d.switchTo().frame("f2");
+		d.switchTo().frame("f1");
 		d.findElement(By.id("t2")).sendKeys("b");
 		d.switchTo().defaultContent();
 		d.findElement(By.id("t1")).sendKeys("c");
